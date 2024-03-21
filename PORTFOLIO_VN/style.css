@@ -1,0 +1,371 @@
+.about {
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 2000px;
+  box-sizing: border-box;
+}
+.hero-image {
+  border-radius: 10px;
+  background: url("https://cdn.nguyenkimmall.com/images/detailed/824/dien-thoai-iphone-14-pro-max-128gb-tim-4.jpg")
+      100% / cover no-repeat,
+    linear-gradient(#f7f7f7, #f7f7f7);
+  width: 500px;
+  height: auto;
+}
+.headline {
+  margin: 0 161.3px 136px 0;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.about-1 {
+  margin-bottom: 24px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: var(--title-font-family, "Inter");
+  font-weight: var(--title-font-weight, 700);
+  font-size: var(--title-font-size, 64px);
+  letter-spacing: var(--title-letter-spacing, -1.3px);
+  color: #000000;
+}
+.subheading-for-description-or-instructions {
+  margin-bottom: 24px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: var(--subheading-font-family, "Inter");
+  font-weight: var(--subheading-font-weight, 400);
+  font-size: var(--subheading-font-size, 24px);
+  line-height: var(--subheading-line-height, 1.5);
+  color: #828282;
+}
+.paragraph {
+  overflow-wrap: break-word;
+  font-family: var(--body-text-font-family, "Inter");
+  font-weight: var(--body-text-font-weight, 500);
+  font-size: var(--body-text-font-size, 20px);
+  line-height: var(--body-text-line-height, 1.5);
+  color: #000000;
+}
+.navigation {
+  background: #ffffff;
+  margin-bottom: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 56px 80px;
+  width: 1440px;
+  box-sizing: border-box;
+}
+.items {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.page {
+  margin: 11px 48.8px 11px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: var(--body-text-font-family, "Inter");
+  font-weight: var(--body-text-font-weight, 500);
+  font-size: var(--body-text-font-size, 20px);
+  line-height: var(--body-text-line-height, 1.5);
+  color: #000000;
+}
+.page-2 {
+  margin: 11px 48.8px 11px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: var(--body-text-font-family, "Inter");
+  font-weight: var(--body-text-font-weight, 500);
+  font-size: var(--body-text-font-size, 20px);
+  line-height: var(--body-text-line-height, 1.5);
+  color: #000000;
+}
+.page-3 {
+  margin: 11px 48.8px 11px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: var(--body-text-font-family, "Inter");
+  font-weight: var(--body-text-font-weight, 500);
+  font-size: var(--body-text-font-size, 20px);
+  line-height: var(--body-text-line-height, 1.5);
+  color: #000000;
+}
+.button {
+  box-shadow: var(--button-shadow, 0px 1px 2px 0px rgba(0, 0, 0, 0.05));
+  border-radius: 8px;
+  background: #000000;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 14px 0px 14px 0;
+  width: 99px;
+  box-sizing: border-box;
+}
+.button-4 {
+  overflow-wrap: break-word;
+  font-family: var(--small-text-font-family, "Inter");
+  font-weight: var(--small-text-font-weight, 500);
+  font-size: var(--small-text-font-size, 16px);
+  line-height: var(--small-text-line-height, 1.5);
+  color: #ffffff;
+}
+.site-name {
+  margin: 11px 15px 11px 0;
+  display: inline-block;
+  width: 875px;
+  overflow-wrap: break-word;
+  font-family: var(--body-text-font-family, "Inter");
+  font-weight: var(--body-text-font-weight, 500);
+  font-size: var(--body-text-font-size, 20px);
+  line-height: var(--body-text-line-height, 1.5);
+  color: #000000;
+}
+.navigation-footer {
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  padding: 1px 80px 48px 80px;
+  width: 1440px;
+  box-sizing: border-box;
+}
+.items-5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+.topic {
+  margin-bottom: 24px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: var(--small-text-font-family, "Inter");
+  font-weight: var(--small-text-font-weight, 500);
+  font-size: var(--small-text-font-size, 16px);
+  line-height: var(--small-text-line-height, 1.5);
+  color: #000000;
+}
+.page-6 {
+  margin: 0 3.2px 24px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: var(--small-text-font-family, "Inter");
+  font-weight: var(--small-text-font-weight, 500);
+  font-size: var(--small-text-font-size, 16px);
+  line-height: var(--small-text-line-height, 1.5);
+  color: #454545;
+}
+.page-7 {
+  margin: 0 3.2px 24px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: var(--small-text-font-family, "Inter");
+  font-weight: var(--small-text-font-weight, 500);
+  font-size: var(--small-text-font-size, 16px);
+  line-height: var(--small-text-line-height, 1.5);
+  color: #454545;
+}
+.page-8 {
+  margin-right: 3.2px;
+  overflow-wrap: break-word;
+  font-family: var(--small-text-font-family, "Inter");
+  font-weight: var(--small-text-font-weight, 500);
+  font-size: var(--small-text-font-size, 16px);
+  line-height: var(--small-text-line-height, 1.5);
+  color: #454545;
+}
+.items-9 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+.topic-10 {
+  margin-bottom: 24px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: var(--small-text-font-family, "Inter");
+  font-weight: var(--small-text-font-weight, 500);
+  font-size: var(--small-text-font-size, 16px);
+  line-height: var(--small-text-line-height, 1.5);
+  color: #000000;
+}
+.page-11 {
+  margin: 0 3.2px 24px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: var(--small-text-font-family, "Inter");
+  font-weight: var(--small-text-font-weight, 500);
+  font-size: var(--small-text-font-size, 16px);
+  line-height: var(--small-text-line-height, 1.5);
+  color: #454545;
+}
+.page-12 {
+  margin: 0 3.2px 24px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: var(--small-text-font-family, "Inter");
+  font-weight: var(--small-text-font-weight, 500);
+  font-size: var(--small-text-font-size, 16px);
+  line-height: var(--small-text-line-height, 1.5);
+  color: #454545;
+}
+.page-13 {
+  margin-right: 3.2px;
+  overflow-wrap: break-word;
+  font-family: var(--small-text-font-family, "Inter");
+  font-weight: var(--small-text-font-weight, 500);
+  font-size: var(--small-text-font-size, 16px);
+  line-height: var(--small-text-line-height, 1.5);
+  color: #454545;
+}
+.items-14 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+.topic-15 {
+  margin-bottom: 24px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: var(--small-text-font-family, "Inter");
+  font-weight: var(--small-text-font-weight, 500);
+  font-size: var(--small-text-font-size, 16px);
+  line-height: var(--small-text-line-height, 1.5);
+  color: #000000;
+}
+.page-16 {
+  margin: 0 3.2px 24px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: var(--small-text-font-family, "Inter");
+  font-weight: var(--small-text-font-weight, 500);
+  font-size: var(--small-text-font-size, 16px);
+  line-height: var(--small-text-line-height, 1.5);
+  color: #454545;
+}
+.page-17 {
+  margin: 0 3.2px 24px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: var(--small-text-font-family, "Inter");
+  font-weight: var(--small-text-font-weight, 500);
+  font-size: var(--small-text-font-size, 16px);
+  line-height: var(--small-text-line-height, 1.5);
+  color: #454545;
+}
+.page-18 {
+  margin-right: 3.2px;
+  overflow-wrap: break-word;
+  font-family: var(--small-text-font-family, "Inter");
+  font-weight: var(--small-text-font-weight, 500);
+  font-size: var(--small-text-font-size, 16px);
+  line-height: var(--small-text-line-height, 1.5);
+  color: #454545;
+}
+.site-name-19 {
+  margin-bottom: 98px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: var(--subheading-font-family, "Inter");
+  font-weight: var(--subheading-font-weight, 400);
+  font-size: var(--subheading-font-size, 24px);
+  line-height: var(--subheading-line-height, 1.5);
+  color: #000000;
+}
+.social-icons {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 164px;
+  box-sizing: border-box;
+}
+.buttons-icon {
+  border-radius: 4px;
+  margin: 0px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 20px;
+  height: 19.9px;
+  box-sizing: border-box;
+}
+.icon {
+  width: 20px;
+  height: 19.9px;
+}
+.buttons-icon-20 {
+  border-radius: 4px;
+  margin: 1px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 18px;
+  height: 18px;
+  box-sizing: border-box;
+}
+.icon-21 {
+  width: 18px;
+  height: 18px;
+}
+.buttons-icon-22 {
+  border-radius: 4px;
+  margin: 3px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 20px;
+  height: 14px;
+  box-sizing: border-box;
+}
+.icon-23 {
+  width: 20px;
+  height: 14px;
+}
+.buttons-icon-24 {
+  border-radius: 4px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  box-sizing: border-box;
+}
+.icon-25 {
+  width: 20px;
+  height: 20px;
+}
+.divider {
+  background: #e6e6e6;
+  margin-bottom: 46px;
+  width: 1280px;
+  height: 1px;
+}
+.container {
+  margin: 0 85px 120px 80px;
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.container-26 {
+  margin: 4px 0 10px 0;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.container-27 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-self: flex-start;
+  width: 1134.7px;
+  box-sizing: border-box;
+}
